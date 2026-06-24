@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { CheckCircle2, BookOpen, Clock, Target } from "lucide-react"
+import { CheckCircle2, BookOpen, Clock } from "lucide-react"
 import { supabase } from "@/lib/supabaseClient"
 import { useAuth } from "@/contexts/AuthContext"
 import { formatDistanceToNow } from "date-fns"

@@ -27,7 +27,6 @@ const item: Variants = {
 export default function Dashboard() {
   const { user } = useAuth()
   const [totalTasks, setTotalTasks] = useState(0)
-  const [completedTasks, setCompletedTasks] = useState(0)
   const [overdueTasks, setOverdueTasks] = useState(0)
   const [productivityScore, setProductivityScore] = useState(0)
   const [pendingToday, setPendingToday] = useState(0)
