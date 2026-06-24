@@ -72,7 +72,6 @@ export default function Dashboard() {
     const score = total > 0 ? Math.round((completed / total) * 100) : 0
 
     setTotalTasks(total)
-    setCompletedTasks(completed)
     setOverdueTasks(overdue)
     setProductivityScore(score)
     setPendingToday(pendingTodayCount)
