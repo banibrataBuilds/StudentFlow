@@ -2,7 +2,7 @@
 
 A modern, aesthetic productivity suite for students. Track tasks, log study sessions, manage exams, and analyze your academic progress—all in one beautifully designed workspace.
 
-![StudentFlow Preview](https://via.placeholder.com/1000x500?text=StudentFlow+Dashboard) *(You can replace this link with a real screenshot of your app!)*
+![StudentFlow Preview](https://drive.google.com/file/d/1YPND2dgbn8214KBWgqf18xhQq1ffWKfs/preview)
 
 ## ✨ Features
 
