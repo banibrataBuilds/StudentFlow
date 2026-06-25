@@ -86,7 +86,7 @@ export default function StudyPlanner() {
           subject: "",
           duration_minutes: 60,
           goal: "",
-          date: undefined
+          date: new Date()
         })
         fetchSessions()
       }
@@ -103,7 +103,7 @@ export default function StudyPlanner() {
           subject: "",
           duration_minutes: 60,
           goal: "",
-          date: undefined
+          date: new Date()
         })
         fetchSessions()
       }
@@ -134,7 +134,7 @@ export default function StudyPlanner() {
       subject: "",
       duration_minutes: 60,
       goal: "",
-      date: undefined
+      date: new Date()
     })
   }
 

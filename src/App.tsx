@@ -34,7 +34,7 @@ function App() {
               <Routes>
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />
-                
+
                 <Route path="/" element={<ProtectedRoute><AppLayout /></ProtectedRoute>}>
                   <Route index element={<Navigate to="/dashboard" replace />} />
                   <Route path="dashboard" element={<Dashboard />} />
@@ -47,9 +47,9 @@ function App() {
                 </Route>
               </Routes>
             </div>
+            <Toaster />
           </div>
         </Router>
-      <Toaster />
       </AuthProvider>
     </ThemeProvider>
   )

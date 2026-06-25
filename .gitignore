@@ -10,7 +10,13 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+
+# Local-only env overrides (never commit these)
 *.local
+
+# Explicitly track the base .env (Supabase anon key is public — safe to commit)
+!.env
+!.env.example
 
 # Editor directories and files
 .vscode/*
